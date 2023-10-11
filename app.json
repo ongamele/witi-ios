@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "witi-app",
+    "slug": "witi-app",
+    "version": "1.0.0",
+    "privacy": "public",
+    "description": "Witi app is used for recorgnising candidates faces and send back criminal records",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#C5DFF6"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.witi.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "witi.app"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f52a37ad-66ea-493e-9dce-1cdf986d26b1"
+      }
+    }
+  }
+}
